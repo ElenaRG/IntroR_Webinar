@@ -1,1 +1,1 @@
-# Introducción a R con RStudio  :lemon: Lemon – Ice :ice:
+# Introducción a R con RStudio  :lemon: Lemon – Ice :snowflake:
