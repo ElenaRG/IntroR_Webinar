@@ -1,6 +1,6 @@
-# Introducción a R con RStudio  
+# Introducción a R con RStudio  (:lemon: Lemon – Ice :snowflake:)
 ![RLibraries](./assets/RLibraries.png)
-### :lemon: Lemon – Ice :snowflake:
+### 
 
 El **objetivo** de este curso es que puedas conocer el entorno de desarrollo RStudio y que puedas ejecutar sentencias básicas de R para poder generar reportes básicos. Además poder tener las herramientas básicas para que por tu lado puedas irte desarrollando con un programador de R.
 
