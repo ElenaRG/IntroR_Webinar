@@ -1,2 +1,1 @@
-# IntroR_Webinar
-Introducción a R con RStudio
+# Introducción a R con RStudio  :lemon: Lemon – Ice :ice:
