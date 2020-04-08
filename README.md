@@ -11,17 +11,18 @@ El objetivo de este curso es que puedas conocer el entorno de desarrollo **RStud
 ### Antes de comenzar
 Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual de Descarga e Istalación](./1w_Instalacion_R.pdf))
 
-### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
+### Este curso se dividirá en 3 sesiones, las cuales abarcaran los siguientes tópicos:
 
-- __[Dia I](./Dia_I)__
-	* [Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
-	* [Sesión 2 - Importación y manipulación de Data Frames]()
-- __[Dia II](./Dia_II)__
-	* [Sesión 3 - Introducción a Tidyverse]()
-	* [Sesión 4 - Visualización de datos con ggplot2]()
-- __[Dia III](./Dia_III)__
-	* [Sesión 5 - Análisis exploratorio de datos]()
-	* [Sesión 6 - Creación de reportes]()
+- __[Sesión I](./Sesion_I)__
+	* [Presentación Sesión I](./Sesion_I/2w_IntrodiccionR.pdf)
+	* [Practica 1 - Entorno de desarrollo integrado (RStudio)](./Sesion_I/wSesion1-Prectica1.R)
+	* [Practica 2 - Importación y manipulación de Data Frames](./Sesion_I/wSesion1-Practica2.R)
+- __[Sesión II](./Sesion_II)__
+	* [Practica 3 - Introducción a Tidyverse](./Sesion_II/wSesion2-Prectica3.R)
+	* [Practica 4 - Visualización de datos con ggplot2](./Sesion_II/wSesion2-Prectica3.R)
+- __[Sesión III](./Sesion_III)__
+	* [Practica 5 - Análisis exploratorio de datos](./Sesion_III/wSesion3-Prectica5.R)
+	* [Practica 6 - Creación de reportes](./Sesion_III/wSesion3-Prectica6.R)
 	
 ### Recursos Adicionales
 * __Cheat Sheets__
