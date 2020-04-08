@@ -13,7 +13,7 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 
 #### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
 
-1. __[Dia I](./Dia_I)__
+#### __[Dia I](./Dia_I)__ ####
 	* [Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
 	* [Sesión 2 - Importación y manipulación de Data Frames]()
 2. __[Dia II](./Dia_II)__
