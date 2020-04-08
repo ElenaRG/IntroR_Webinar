@@ -24,17 +24,17 @@ Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Desca
 	* [Sesión 6 - Creación de reportes]()
 	
 #### Recursos Adicionales
-* Cheat Sheets
+* __Cheat Sheets__
 	* [RStudio - IDE](./CheatSheets/rstudio-ide.pdf)
 	* [Base R](./CheatSheets/base-r.pdf)
 	* [Tidyverse](./CheatSheets/Tidyverse+Cheat+Sheet.pdf)
 	* [Ggplot2](./CheatSheets/data-visualization-2.1.pdf)
 	* [Data Wrangling](./CheatSheets/data-wrangling-cheatsheet.pdf)
 	* [RMarkdown](./CheatSheets/rmarkdown-cheatsheet-2.0.pdf)
-* Libros
+* __Libros__
 	* [R for Data Science](https://r4ds.had.co.nz/)
 	* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
-* Ligas de interés 
+* __Ligas de interés__
 	* [R Project](https://www.r-project.org/)
 	* [RStudio](https://rstudio.com/)
 	* [R-Bloggers](https://www.r-bloggers.com/)
