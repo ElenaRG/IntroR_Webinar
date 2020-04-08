@@ -1,4 +1,4 @@
-# <a style="color:blue;"> Webinar: </a>Introducción a R con RStudio  
+# Webinar: Introducción a R con RStudio  
 ###### [:lemon: Lemon – Ice :snowflake:](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
 
 ![RLibraries](./assets/RLibraries4.png)
