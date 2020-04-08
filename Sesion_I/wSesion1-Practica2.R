@@ -27,7 +27,7 @@ library("readxl")
 # =========================================================================== #
 
 rutaLocal <- 'C:/webinar'
-rutaOnline <- 'https://github.com/ElenaRG/IntroR_Webinar/tree/master/DataFrames'
+rutaOnline <- 'https://github.com/ElenaRG/IntroR_Webinar/tree/master/DataFrames/'
 
 # == Establecer una ruta de trabajo local
 setwd(rutaLocal)
