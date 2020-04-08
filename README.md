@@ -3,9 +3,12 @@
 
 ![RLibraries](./assets/RLibraries4.png)
 
-#### Objetivo 
+#### Objetivo del Webinar
 
 El objetivo de este curso es que puedas conocer el entorno de desarrollo RStudio y que puedas ejecutar sentencias básicas de R para poder generar reportes. Además de poder contar con las herramientas básicas para que por tu lado puedas ir adquiriendo nuevos conocimientos y puedas desarrollarte como un programador de R.
+
+#### Antes de comenzar
+Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Descarga e istalación](./1w_Instalacion_R.pdf))
 
 #### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
 
