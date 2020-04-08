@@ -1,5 +1,10 @@
 # Webinar: Introducción a R con RStudio
 
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
+
 ###### [:lemon: Lemon – Ice :snowflake:](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
 
 ![RLibraries](./assets/RLibraries4.png)
