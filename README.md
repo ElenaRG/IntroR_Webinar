@@ -1,6 +1,6 @@
 # Webinar: Introducción a R con RStudio
 
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text='hola_mundo') `#c5f015`
 
 ###### [:lemon: Lemon – Ice :snowflake:](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
 
