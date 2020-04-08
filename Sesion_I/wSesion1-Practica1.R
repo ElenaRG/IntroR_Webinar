@@ -8,13 +8,13 @@
 # == ASIGNACI覰 DE VARIABLES
 # =========================================================================== #
 
-# == asignaci贸n del valor 4 al objeto 'n'
+# == asignaci髇 del valor 4 al objeto 'n'
 n <- 4
 
-# == reasignaci贸n del valor 7 al objeto 'n'
+# == reasignaci髇 del valor 7 al objeto 'n'
 7 -> n
 
-# == asignaci贸n del resultado de una operaci贸n a la variable n1
+# == asignaci髇 del resultado de una operaci髇 a la variable n1
 n1 <- 5 + 3
 
 (8*2)-1
@@ -103,9 +103,9 @@ NA - 15
 
 
 # == L覩ICOS
-#  X & Y		Y l贸gico
-#  X | Y 		O l贸gico
-#  ! X		 NO l贸gico
+#  X & Y --> Y l骻ico
+#  X | Y  --> O l骻ico
+#  ! X --> NO l骻ico
 
 # == Y l骻ico
 7<2 & 5>3
