@@ -14,7 +14,7 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 ### Este curso se dividirá en 3 sesiones, las cuales abarcaran los siguientes tópicos:
 
 - __[Sesión I](./Sesion_I)__
-	* [Presentación Sesión I](./Sesion_I/2w_IntrodiccionR.pdf)
+	* [Presentación Sesión I](./Sesion_I/w_IntrodiccionR.pdf)
 	* [Practica 1 - Entorno de desarrollo integrado (RStudio)](./Sesion_I/wSesion1-Practica1.R)
 	* [Practica 2 - Importación y manipulación de Data Frames](./Sesion_I/wSesion1-Practica2.R)
 - __[Sesión II](./Sesion_II)__
