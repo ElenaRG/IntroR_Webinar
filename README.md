@@ -9,7 +9,7 @@ El objetivo de este curso es que puedas conocer el entorno de desarrollo RStudio
 
 #### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
 
-1. [Dia I](../IntroR_Webinar/Dia_I)
+1. [Dia I](./Dia_I)
 	* [Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
 	* [Sesión 2 - Importación y manipulación de Data Frames]()
 2. [Dia II]()
