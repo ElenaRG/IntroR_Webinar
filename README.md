@@ -34,6 +34,9 @@ Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Desca
 	* [R for Data Science](https://r4ds.had.co.nz/)
 	* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * Ligas de interés 
+	* [R Project](https://www.r-project.org/)
+	* [RStudio](https://rstudio.com/)
 	* [R-Bloggers](https://www.r-bloggers.com/)
+	* [R-Exercises](https://www.r-exercises.com)
 
 
