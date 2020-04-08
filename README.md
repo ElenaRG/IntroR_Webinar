@@ -6,20 +6,20 @@
 
 #### Objetivo del Webinar
 
-El objetivo de este curso es que puedas conocer el entorno de desarrollo RStudio y que puedas ejecutar sentencias básicas de R para poder generar reportes. Además de poder contar con las herramientas básicas para que por tu lado puedas ir adquiriendo nuevos conocimientos y puedas desarrollarte como un programador de R.
+El objetivo de este curso es que puedas conocer el entorno de desarrollo **RStudio** y que puedas ejecutar sentencias básicas de R para poder generar reportes. Además de poder contar con las herramientas básicas para que por tu lado puedas ir adquiriendo nuevos conocimientos y puedas desarrollarte como un programador de R.
 
 #### Antes de comenzar
-Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Descarga e Istalación](./1w_Instalacion_R.pdf))
+Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual de Descarga e Istalación](./1w_Instalacion_R.pdf))
 
 #### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
 
-1. [Dia I](./Dia_I)
+1. __[Dia I](./Dia_I)__
 	* [Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
 	* [Sesión 2 - Importación y manipulación de Data Frames]()
-2. [Dia II]()
+2. __[Dia II](./Dia_II)__
 	* [Sesión 3 - Introducción a Tidyverse]()
 	* [Sesión 4 - Visualización de datos con ggplot2]()
-3. [Dia III]()
+3. __[Dia III](./Dia_III)__
 	* [Sesión 5 - Análisis exploratorio de datos]()
 	* [Sesión 6 - Creación de reportes]()
 	
