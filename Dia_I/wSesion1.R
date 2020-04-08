@@ -1,20 +1,20 @@
-## INTRODUCCIÓN a R
+## INTRODUCCIÃ“N a R
 
 
-################################  S E S I Ó N   1 #############################################
+################################  S E S I Ã“ N   1 #############################################
 
 
 ###############################################################################################
-## ASIGNACIÓN DE VARIABLES
+## ASIGNACIÃ“N DE VARIABLES
 ###############################################################################################
 
-# asignación del valor 4 al objeto 'n'
+# asignaciÃ³n del valor 4 al objeto 'n'
 n <- 4
 
-# reasignación del valor 7 al objeto 'n'
+# reasignaciÃ³n del valor 7 al objeto 'n'
 7 -> n
 
-# asignación del resultado de una operación a la variable n1
+# asignaciÃ³n del resultado de una operaciÃ³n a la variable n1
 n1 <- 5 + 3
 
 (8*2)-1
@@ -29,17 +29,17 @@ rm(n1)
 ## TIPO DE DATOS
 ###############################################################################################
 
-# la función class() se usa para saber de qué tipo es un dato
+# la funciÃ³n class() se usa para saber de quÃ© tipo es un dato
 class("hola")
 class(3)
 class(9>8)
 
-# también puede verificarse si un dato es de un tipo específico
+# tambiÃ©n puede verificarse si un dato es de un tipo especÃ­fico
 is.integer(6.4)
 is.numeric(6.4)
 is.character("hola")
 
-# ejemplos de coerción de datos
+# ejemplos de coerciÃ³n de datos
 as.character(5)
 as.numeric("dos")
 as.factor(1)
@@ -52,23 +52,23 @@ as.numeric(FALSE)
 ## OPERADORES
 ###############################################################################################
 
-## ARITMÉTICOS
-#  + 	adición
-#  - 	sustracción
-#  *	multiplicación
-#  / 	división
+## ARITMÃ‰TICOS
+#  + 	adiciÃ³n
+#  - 	sustracciÃ³n
+#  *	multiplicaciÃ³n
+#  / 	divisiÃ³n
 #  ^	potencia
 
-# Adición
+# AdiciÃ³n
 2+3
-# Sustracción
+# SustracciÃ³n
 3-7
-# Multiplicación
+# MultiplicaciÃ³n
 6*4
-# División
+# DivisiÃ³n
 93/4
 
-# cualquier operación aritmética con un dato tipo NA devuelve NA
+# cualquier operaciÃ³n aritmÃ©tica con un dato tipo NA devuelve NA
 NA - 15
 
 
@@ -94,19 +94,19 @@ NA - 15
 5!=7
 
 
-## LÓGICOS
-#  X & Y		Y lógico
-#  X | Y 		O lógico
-#  ! X		 NO lógico
+## LÃ“GICOS
+#  X & Y		Y lÃ³gico
+#  X | Y 		O lÃ³gico
+#  ! X		 NO lÃ³gico
 
-# Y lógico
+# Y lÃ³gico
 7<2 & 5>3
 2<7 & 5>3
-# O lógico
+# O lÃ³gico
 7<2 | 5<3
 7<2 | 5>3
 7>2 | 5>3
-# NO lógico
+# NO lÃ³gico
 !7<2  
 !5>3
 
@@ -118,11 +118,11 @@ NA - 15
 ## VECTORES
 ###############################################################################################
 
-# asignación del objeto (vector) x1
+# asignaciÃ³n del objeto (vector) x1
 x1 <- c(1,2,"a","b",10:16)
-# visualización del vector x1
+# visualizaciÃ³n del vector x1
 x1
-# ¿qué tipo de vector es x1?
+# Â¿quÃ© tipo de vector es x1?
 class(x1)
 
 # vector de valores repetidos
@@ -135,7 +135,7 @@ x5 <- seq(1:10)
 x6 <- seq(2,  10, by=2)
 x7 <- seq(1, -20, by=-5)
 
-# concatenación de vectores
+# concatenaciÃ³n de vectores
 x8 <- c(x1,x7)
 
 # longitud del objeto
@@ -145,7 +145,7 @@ length(x6)
 #  cuarta coordenada de x1
 x1[4]
 
-# un índice negativo implica ignorar el elemento o elementos correspondientes
+# un Ã­ndice negativo implica ignorar el elemento o elementos correspondientes
 x1[-3]
 
 # coordenada 2, 5 y 11 de x1
@@ -156,11 +156,11 @@ x1[2:5]
 x1[-c(1,10,11)]
 x1[c(-1,-10,-11)]
 
-# muestra de x1, tamaño 4, CON repetición   
+# muestra de x1, tamaÃ±o 4, CON repeticiÃ³n   
 # Nota personal: correr varias veces
 sample(x1,size=4,replace=TRUE)
 
-# muestra de x1, tamaño 5, SIN repetición   
+# muestra de x1, tamaÃ±o 5, SIN repeticiÃ³n   
 sample(x1,size=5,replace=FALSE)
 
 
@@ -174,7 +174,7 @@ x6
 length(x5)
 length(x6)
 
-# multiplicación por un escalar
+# multiplicaciÃ³n por un escalar
 x5*2
 
 # suma/resta de un vector y un escalar
@@ -194,13 +194,16 @@ w <- x6^2
 sqrt(w)
 w^(1/2)
 
-# ¿si las longitudes son diferentes y no son multiplos?
+# Â¿si las longitudes son diferentes y no son multiplos?
 x <- 1:8
 y <- -2:3
+
+x
+y
+
 length(x)
 length(y)
 x+y
 x*y
 
 # existen funciones predeterminadas para realizar ciertas operaciones.
-
