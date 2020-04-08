@@ -41,3 +41,4 @@ Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Desca
 	* [R-Exercises](https://www.r-exercises.com)
 
 
+###### Para dudas y/o cometarios contactar: <estadisticalemon@delarivagroup.com>
