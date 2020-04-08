@@ -1,6 +1,6 @@
 # Webinar: Introducción a R con RStudio
 
-###### [Lemon – Ice](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
+###### [:lemon: Lemon – Ice :snowflake:](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
 
 ![RLibraries](./assets/RLibraries4.png)
 
