@@ -1,6 +1,6 @@
 # Webinar: Introducción a R con RStudio
 
-###### [:lemon: Lemon – Ice :snowflake:](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
+###### [Lemon – Ice](https://www.delarivagroup.com/estudios-de-mercado/investigacion-cuantitativa/)
 
 ![RLibraries](./assets/RLibraries4.png)
 
@@ -9,7 +9,7 @@
 El objetivo de este curso es que puedas conocer el entorno de desarrollo **RStudio** y que puedas ejecutar sentencias básicas de R para poder generar reportes. Además de poder contar con las herramientas básicas para que por tu lado puedas ir adquiriendo nuevos conocimientos y puedas desarrollarte como un programador de R.
 
 ### Antes de comenzar
-Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual de Descarga e Istalación](./1w_Instalacion_R.pdf))
+Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual de Descarga e Instalación](./1w_Instalacion_R.pdf))
 
 ### Este curso se dividirá en 3 sesiones, las cuales abarcaran los siguientes tópicos:
 
