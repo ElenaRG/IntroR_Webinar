@@ -10,8 +10,8 @@ El objetivo de este curso es que puedas conocer el entorno de desarrollo RStudio
 #### Este curso se dividirá en 3 sesiones, las cuales abarcaran los siguientes tópicos:
 
 * Dia I
-	1. [Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
-	2. [Sesión 2 - Importación y manipulación de Data Frames]()
+	[Sesión 1 - Entorno de desarrollo integrado (RStudio)]()
+	[Sesión 2 - Importación y manipulación de Data Frames]()
 * Dia II
 	1. [Sesión 3 - Introducción a Tidyverse]()
 	2. [Sesión 4 - Visualización de datos con ggplot2]()
