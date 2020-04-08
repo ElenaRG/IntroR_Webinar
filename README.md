@@ -8,7 +8,7 @@
 El objetivo de este curso es que puedas conocer el entorno de desarrollo RStudio y que puedas ejecutar sentencias básicas de R para poder generar reportes. Además de poder contar con las herramientas básicas para que por tu lado puedas ir adquiriendo nuevos conocimientos y puedas desarrollarte como un programador de R.
 
 #### Antes de comenzar
-Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Descarga e istalación](./1w_Instalacion_R.pdf))
+Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Descarga e Istalación](./1w_Instalacion_R.pdf))
 
 #### Este curso se dividirá en 3 días de webinar, los cuales abarcaran los siguientes tópicos:
 
@@ -21,4 +21,19 @@ Recuerda que debes tener instalado en maquina R-Cran y RStudio ([Manual de Desca
 3. [Dia III]()
 	* [Sesión 5 - Análisis exploratorio de datos]()
 	* [Sesión 6 - Creación de reportes]()
+	
+#### Recursos Adicionales
+* Cheat Sheets
+	* [RStudio - IDE](./CheatSheets/rstudio-ide.pdf)
+	* [Base R](./CheatSheets/base-r.pdf)
+	* [Tidyverse](./CheatSheets/Tidyverse+Cheat+Sheet.pdf)
+	* [Ggplot2](./CheatSheets/data-visualization-2.1.pdf)
+	* [Data Wrangling](./CheatSheets/data-wrangling-cheatsheet.pdf)
+	* [RMarkdown](./CheatSheets/rmarkdown-cheatsheet-2.0.pdf)
+* Libros
+	* [R for Data Science](https://r4ds.had.co.nz/)
+	* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+* Ligas de interés 
+	* [R-Bloggers](https://www.r-bloggers.com/)
+
 
