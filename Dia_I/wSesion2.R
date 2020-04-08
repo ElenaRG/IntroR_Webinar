@@ -1,4 +1,4 @@
-################################  S E S I Ó N   2 #############################################
+################################  S E S I Ã“ N   2 #############################################
 
 ###############################################################################################
 ## MANEJO DE BASES DE DATOS
@@ -8,16 +8,16 @@
 # Establecer una ruta de trabajo 
 setwd('C:/webinar')
 
-# Verificar la ruta de trabajo en la que se está trabajando
+# Verificar la ruta de trabajo en la que se estÃ¡ trabajando
 getwd()
 
-# Cargar las librerías necesarias para importar una base
-# Los paquetes o librerías son una colección de funciones con una estructura bien definida 
-# diseñadas para resolver una tareas específicas. 
+# Cargar las librerÃ­as necesarias para importar una base
+# Los paquetes o librerÃ­as son una colecciÃ³n de funciones con una estructura bien definida 
+# diseÃ±adas para resolver una tareas especÃ­ficas. 
 library("readxl")
 library("foreign")
 
-# Cargar una base CSV después de establecer la ruta de trabajo
+# Cargar una base CSV despuÃ©s de establecer la ruta de trabajo
 base1 <- read.csv('cars.csv', header = TRUE)
 
 ## Cargar una base si no se ha establecido la ruta de trabajo
@@ -25,7 +25,7 @@ base1.1 <- read.csv('https://github.com/jorgeo80/IntroR_Webinar/tree/master/Dia_
 base1.2 <- read.csv(file.choose(), header=TRUE)
 
 # Cargar una base en Excel
-# el segundo parámetro indica la hoja que va a importarse
+# el segundo parÃ¡metro indica la hoja que va a importarse
 base2 <- read_excel('https://github.com/jorgeo80/IntroR_Webinar/tree/master/Dia_I/Bases/flores.xlsx', 1)
 
 # Cargar una base en archivo de texto
@@ -42,10 +42,10 @@ rm(list=ls(pat="b"))
 
 ###############################################################################################
 ## MANEJO DE BASES DE DATOS
-## Análisis exploratorio de datos
+## RevisiÃ³n preliminar de datos
 ###############################################################################################
 
-# mostrar la dimensión o tamaño de la base
+# mostrar la dimensiÃ³n o tamaÃ±o de la base
 dim(auto)
 dim(tv)
 dim(flor)
@@ -55,7 +55,7 @@ names(auto)
 names(tv)
 names(flor)
 
-# verificar estructura de los campos, de qué tipo son los datos
+# verificar estructura de los campos, de quÃ© tipo son los datos
 str(auto)
 
 library("tibble")
@@ -68,16 +68,16 @@ head(tv, 5)
 tail(auto, 3)
 
 # resumen de las variables de una base de datos
-# si algun campo no es númerico devuelve las frecuencias
+# si algun campo no es nÃºmerico devuelve las frecuencias
 summary(auto)
 summary(tv)
 
-# también aplica para resumir una variable
+# tambiÃ©n aplica para resumir una variable
 # para acceder a una variable la sintaxis es: base + $ + nombre de la variable
-# ej. auto$gear   mostrará el contenido de la variable "gear" de la base "auto"
+# ej. auto$gear   mostrarÃ¡ el contenido de la variable "gear" de la base "auto"
 summary(auto$gear)
 
-# análisis de frecuencias de una variable
+# anÃ¡lisis de frecuencias de una variable
 table(auto$gear)
 as.data.frame(table(auto$gear))
 
@@ -88,16 +88,16 @@ prop.table(table(auto$gear))
 sum(tv$ninos)
 cumsum(tv$ninos)
 
-# mínimo, máximo, media, varianza, desviación estándar, de un vector
+# mÃ­nimo, mÃ¡ximo, media, varianza, desviaciÃ³n estÃ¡ndar, de un vector
 min(auto$cyl)
 max(auto$gear)
 mean(auto$hp)
 var(auto$mpg)
 sd(auto$mpg)
 
-# creación de nuevos vectores (campos) en una base de datos
-# Ej. variable "kpg" = kilómetros por galón
-# para ello se convierten las millas por galón a kilómetros 
+# creaciÃ³n de nuevos vectores (campos) en una base de datos
+# Ej. variable "kpg" = kilÃ³metros por galÃ³n
+# para ello se convierten las millas por galÃ³n a kilÃ³metros 
 auto$kpg <- auto$mpg*1.60934
 auto$vs <- as.logical(mtcars$vs)
 head(auto)
@@ -106,13 +106,13 @@ head(auto)
 getwd()
 write.csv(auto, "auto_modif.csv", row.names=FALSE)
 
-# si se desea guardar en una ruta diferente habrá de especificarse
+# si se desea guardar en una ruta diferente habrÃ¡ de especificarse
 write.csv(auto,"C:/webinar/auto_modif.csv", row.names=FALSE)
 
 
 ###############################################################################################
 ## MANEJO DE BASES DE DATOS
-## Análisis exploratorio de datos usando gráficos
+## RevisiÃ³n preliminar de datos usando grÃ¡ficos
 ###############################################################################################
 
 setwd('C:/webinar')
@@ -123,113 +123,113 @@ str(auto)
 auto$car <- row.names(auto)
 str(auto)
 
-## GRÁFICOS BÁSICOS
+## GRÃFICOS BÃSICOS
 
-# Gráfico de Puntos 
+# GrÃ¡fico de Puntos 
 plot(auto$mpg)
-# gráfico de puntos para comparar el cilindraje vs caballos de fuerza
+# grÃ¡fico de puntos para comparar el cilindraje vs caballos de fuerza
 plot(auto$cyl, auto$hp)
 plot(auto$cyl, auto$hp, col="red")
 plot(auto$cyl, auto$hp,
      col  = "red",
      xlab = "cilindros", 
      ylab = "caballos de fuerza",
-     main = "Relación de cilindros y millas por galón")
+     main = "RelaciÃ³n de cilindros y millas por galÃ³n")
 
-# CONCLUSIÓN: visualmente parece haber una asociación positiva entre el número de cilindros
+# CONCLUSIÃ“N: visualmente parece haber una asociaciÃ³n positiva entre el nÃºmero de cilindros
 # y los caballos de fuerza del auto
 
-# gráfico de puntos para comparar los caballos de fuerza vs las millas por galón
+# grÃ¡fico de puntos para comparar los caballos de fuerza vs las millas por galÃ³n
 plot(auto$hp, auto$mpg,
      col  = "blue",
      xlab = "Caballos de fuerza", 
-     ylab = "Millas por galón",
-     main = "Caballos de fuerza vs millas por galón")
+     ylab = "Millas por galÃ³n",
+     main = "Caballos de fuerza vs millas por galÃ³n")
 
-# CONCLUSIÓN: visualmente parece haber una asociación negativa entre los caballos de fuerza
+# CONCLUSIÃ“N: visualmente parece haber una asociaciÃ³n negativa entre los caballos de fuerza
 # y el rendimiento del combustible
 
 
-# Gráfico de Barras de las frecuencias de autos según su número de velocidades
+# GrÃ¡fico de Barras de las frecuencias de autos segÃºn su nÃºmero de velocidades
 barplot(table(auto$gear))
 barplot(table(auto$gear), col="blue")
 barplot(table(auto$gear), col=c(5:7))
 barplot(table(auto$gear), 
         col=c("blue","red","grey"), 
-        main = "Gráfico de barras",
+        main = "GrÃ¡fico de barras",
         xlab = "num casos",
         ylab = "Velocidades", 
         horiz = TRUE)
 
-# CONCLUSIÓN: en la base de datos la mayoría de los autos son de 3 velocidades
+# CONCLUSIÃ“N: en la base de datos la mayorÃ­a de los autos son de 3 velocidades
 
-# Histograma de millas por galón
+# Histograma de millas por galÃ³n
 hist(auto$mpg)
 
-# Boxplot o Gráfica de caja y brazos
-# gráfica de caja y brazos para los caballos de fuerza
+# Boxplot o GrÃ¡fica de caja y brazos
+# grÃ¡fica de caja y brazos para los caballos de fuerza
 boxplot(auto$hp,
         xlab="Caballos de fuerza",
         main="Boxplot de la variable hp en la base 'auto'",
         col = "yellow",
         horizontal = TRUE)
 
-# CONCLUSIÓN: la mitad de los datos esta entre 50 y 120 caballos de fuerza aprox. 
-# existe mayor dispersión en los valores altos de la variable
-# existe un dato atípico en los valores altos de la variable
+# CONCLUSIÃ“N: la mitad de los datos esta entre 50 y 120 caballos de fuerza aprox. 
+# existe mayor dispersiÃ³n en los valores altos de la variable
+# existe un dato atÃ­pico en los valores altos de la variable
 
-# gráfica de caja y brazos para comparar las millas por galón para cada número de cilindros
+# grÃ¡fica de caja y brazos para comparar las millas por galÃ³n para cada nÃºmero de cilindros
 boxplot(auto$mpg~auto$cyl,
-        xlab = "Número de cilindros",
-        ylab = "Millas por galón",
-        main="Millas por galón según el número de cilindros")
+        xlab = "NÃºmero de cilindros",
+        ylab = "Millas por galÃ³n",
+        main="Millas por galÃ³n segÃºn el nÃºmero de cilindros")
 
-# CONCLUSIÓN: los autos de menor número de cilindros tienen mayor rendimiento de combustible
+# CONCLUSIÃ“N: los autos de menor nÃºmero de cilindros tienen mayor rendimiento de combustible
 # los autos de 4 cilindros tienen mayor variabiliad en las millas por galos, 
-# los que menos dispersión tienen son los de 6 cilindros, 
-# para los autos de 8 cilindros hay un dato atípico en los valores pequeños
+# los que menos dispersiÃ³n tienen son los de 6 cilindros, 
+# para los autos de 8 cilindros hay un dato atÃ­pico en los valores pequeÃ±os
 
-# Combinar varios gráficos en una pantalla
-# la primer coordenada corresponde al número de filas en que se divide la pantalla
-# y la segunda al número de columnas
+# Combinar varios grÃ¡ficos en una pantalla
+# la primer coordenada corresponde al nÃºmero de filas en que se divide la pantalla
+# y la segunda al nÃºmero de columnas
 par(mfrow=c(2,1))  
-boxplot(auto$mpg~auto$cyl, main="Millas por galón según el número de cilindros")
-boxplot(auto$hp~auto$cyl, main="Caballos de fuerza según el número de cilindros")
+boxplot(auto$mpg~auto$cyl, main="Millas por galÃ³n segÃºn el nÃºmero de cilindros")
+boxplot(auto$hp~auto$cyl, main="Caballos de fuerza segÃºn el nÃºmero de cilindros")
 
 par(mfrow=c(1,2))
-boxplot(auto$mpg~auto$cyl, main="Millas por galón según el número de cilindros")
-boxplot(auto$hp~auto$cyl, main="Caballos de fuerza según el número de cilindros")
+boxplot(auto$mpg~auto$cyl, main="Millas por galÃ³n segÃºn el nÃºmero de cilindros")
+boxplot(auto$hp~auto$cyl, main="Caballos de fuerza segÃºn el nÃºmero de cilindros")
 
-par(mfrow=c(1,1))  # para regresar la pantalla a un gráfico
+par(mfrow=c(1,1))  # para regresar la pantalla a un grÃ¡fico
 
 
 ###############################################################################################
 ## MANEJO DE BASES DE DATOS
-## Estadísticos básicos
+## EstadÃ­sticos bÃ¡sicos
 ###############################################################################################
 
-# gráficamente se observó una asociación negativa entre los cilindros y las millas por galón
-# gráficamente se observó una asociación positiva entre los cilindros y las millas por galón
-# ¿realmente hay asociación? ¿en caso afirmativo que tan fuerte es?  
-# Para verificar la correlación entre variables se usa la función cor()
+# grÃ¡ficamente se observÃ³ una asociaciÃ³n negativa entre los cilindros y las millas por galÃ³n
+# grÃ¡ficamente se observÃ³ una asociaciÃ³n positiva entre los cilindros y las millas por galÃ³n
+# Â¿realmente hay asociaciÃ³n? Â¿en caso afirmativo que tan fuerte es?  
+# Para verificar la correlaciÃ³n entre variables se usa la funciÃ³n cor()
 
 cor(auto$cyl, auto$mpg)
-# CONCLUSIÓN: efectivamente existe una fuerte asociación negativa entre el número de cilindros
+# CONCLUSIÃ“N: efectivamente existe una fuerte asociaciÃ³n negativa entre el nÃºmero de cilindros
 # y el rendimiento del combustible
 
 cor(auto$cyl, auto$hp)
-# CONCLUSIÓN: efectivamente existe una fuerte asociación positiva entre el número de cilindros
+# CONCLUSIÃ“N: efectivamente existe una fuerte asociaciÃ³n positiva entre el nÃºmero de cilindros
 # y el rendimiento del combustible
 
-# en el boxplot de número de cilindros vs rendimiento de combustible
-# se observó un dato atípico 
+# en el boxplot de nÃºmero de cilindros vs rendimiento de combustible
+# se observÃ³ un dato atÃ­pico 
 boxplot(auto$mpg~auto$cyl,
-        xlab = "Número de cilindros",
-        ylab = "Millas por galón",
-        main="Millas por galón según el número de cilindros",
+        xlab = "NÃºmero de cilindros",
+        ylab = "Millas por galÃ³n",
+        main="Millas por galÃ³n segÃºn el nÃºmero de cilindros",
         col = c("red", "blue", "yellow"))
 
-# ¿cuáles son los outliers (mpg) para los autos de 8 cilindros?
+# Â¿cuÃ¡les son los outliers (mpg) para los autos de 8 cilindros?
 
 # visualizar la base "autos" para aquellos de 8 cilindros
 head(auto)
@@ -245,10 +245,10 @@ auto[, c(1,2)]
 select(auto[auto$cyl==8,], 1:3)
 auto[auto$cyl==8, c(1,2,4)]
 
-# calcular el promedio de las millas por galón para toda la base de datos
+# calcular el promedio de las millas por galÃ³n para toda la base de datos
 mean(auto$mpg)
 
-# calcular el promedio de las millas por galón para los autos de 8 cilindros
+# calcular el promedio de las millas por galÃ³n para los autos de 8 cilindros
 mean(auto[auto$cyl==8,]$mpg)
 
 # visualizar/filtrar la base "autos" para aquellos de 8 cilindros y mpg menor al promedio
@@ -264,17 +264,17 @@ arrange(auto, desc(mpg))
 # ordenar la base "auto" por la variable "mpg" para aquellos autos con 8 cilindros
 arrange(auto[auto$cyl==8,],mpg)
 
-# CONCLUSIÓN: ahora es más fácil ver que los autos "Cadillac Fleetwood" y "Lincoln Continental" 
-# son los autos de 8 cilindros con rendimiento de combustible atípico
+# CONCLUSIÃ“N: ahora es mÃ¡s fÃ¡cil ver que los autos "Cadillac Fleetwood" y "Lincoln Continental" 
+# son los autos de 8 cilindros con rendimiento de combustible atÃ­pico
 
 
 ## MUTATE para modificar la estructura de una base de datos
 
-# convertir las millas por galón a kilómetros y agregar la nueva variable a la base "autos"
+# convertir las millas por galÃ³n a kilÃ³metros y agregar la nueva variable a la base "autos"
 auto$kpg <- auto$mpg*1.60934
 head(auto)
 
-# utilizando la función mutate
+# utilizando la funciÃ³n mutate
 auto <- mutate(auto, kpg2=mpg*1.60934)
 head(auto)
 
@@ -286,13 +286,13 @@ head(auto)
 
 ###############################################################################################
 ## MANEJO DE BASES DE DATOS
-## Creación de reportes
+## CreaciÃ³n de reportes
 ###############################################################################################
 
 ## GROUP_BY  &  SUMMARIZE
 
 # hacer un resumen del promedio de "mpg" y "hp" por cilindraje
-# 1. agrupar la base por el número de cilindros
+# 1. agrupar la base por el nÃºmero de cilindros
 resumen <- group_by(auto, cyl)
 
 # 2. calcular la media de las variables deseadas por cilindraje
