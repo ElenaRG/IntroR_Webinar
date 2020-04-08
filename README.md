@@ -15,14 +15,14 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 
 - __[Sesión I](./Sesion_I)__
 	* [Presentación Sesión I](./Sesion_I/2w_IntrodiccionR.pdf)
-	* [Practica 1 - Entorno de desarrollo integrado (RStudio)](./Sesion_I/wSesion1-Prectica1.R)
+	* [Practica 1 - Entorno de desarrollo integrado (RStudio)](./Sesion_I/wSesion1-Practica1.R)
 	* [Practica 2 - Importación y manipulación de Data Frames](./Sesion_I/wSesion1-Practica2.R)
 - __[Sesión II](./Sesion_II)__
-	* [Practica 3 - Introducción a Tidyverse](./Sesion_II/wSesion2-Prectica3.R)
-	* [Practica 4 - Visualización de datos con ggplot2](./Sesion_II/wSesion2-Prectica3.R)
+	* [Practica 3 - Introducción a Tidyverse](./Sesion_II/wSesion2-Practica3.R)
+	* [Practica 4 - Visualización de datos con ggplot2](./Sesion_II/wSesion2-Practica3.R)
 - __[Sesión III](./Sesion_III)__
-	* [Practica 5 - Análisis exploratorio de datos](./Sesion_III/wSesion3-Prectica5.R)
-	* [Practica 6 - Creación de reportes](./Sesion_III/wSesion3-Prectica6.R)
+	* [Practica 5 - Análisis exploratorio de datos](./Sesion_III/wSesion3-Practica5.Rmd)
+	* [Practica 6 - Creación de reportes](./Sesion_III/wSesion3-Practica6.Rmd)
 	
 ### Recursos Adicionales
 * __Cheat Sheets__
