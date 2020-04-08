@@ -26,8 +26,8 @@ library("readxl")
 # == Establecer ruta de trabajo y cargar una base
 # =========================================================================== #
 
-rutaLocal <- 'C:/webinar'
-rutaOnline <- 'https://github.com/ElenaRG/IntroR_Webinar/tree/master/DataFrames/'
+rutaLocal <- 'C:/webinar/'
+rutaOnline <- 'https://raw.githubusercontent.com/ElenaRG/IntroR_Webinar/master/DataFrames/'
 
 # == Establecer una ruta de trabajo local
 setwd(rutaLocal)
@@ -50,7 +50,7 @@ base1.2 <- read.csv(file.choose(), header=TRUE)
 
 # == Cargar una base en Excel
 # == el segundo parámetro indica la hoja que va a importarse
-base2 <- read_excel(paste0(rutaOnline, 'flores.xlsx'), 1)
+base2 <- read_excel(paste0(rutaLocal, 'flores.xlsx'), 1)
 
 # == Cargar una base en archivo de texto
 tv <- read.table(paste0(rutaOnline, 'tv.txt'), header = TRUE)
