@@ -22,7 +22,7 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 	* [Practica 4 - Visualización de datos con ggplot2](./Sesion_II/wSesion2-Practica4.R)
 - __[Sesión III](./Sesion_III)__
 	* [Sintaxis Básica - Markdown](./Sesion_III/EjemplosMarkdown.md)
-	* [Practica 5 - Análisis exploratorio de datos](./Sesion_III/wSesion3-Practica5.Rmd)
+	* [Practica 5 - Análisis exploratorio de datos](./Sesion_III/wSesion3-Practica5.R)
 	* [Practica 6 - Creación de reportes](./Sesion_III/wSesion3-Practica6.Rmd)
 	
 ### Recursos Adicionales
