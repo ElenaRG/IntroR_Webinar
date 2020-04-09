@@ -34,6 +34,8 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 	* [Data Wrangling](./CheatSheets/data-wrangling-cheatsheet.pdf)
 	* [RMarkdown](./CheatSheets/rmarkdown-cheatsheet-2.0.pdf)
 * __Libros__
+	* [The Tidyverse Style Guide](https://style.tidyverse.org/index.html)
+	* [Advanced R](https://adv-r.hadley.nz/introduction.html)
 	* [R for Data Science](https://r4ds.had.co.nz/)
 	* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * __Ligas de interés__
