@@ -108,9 +108,21 @@ subscript<sub>2</sub> <br>
     Contenido de la celda | Contenido de la celda
     Contenido de la celda | Contenido de la celda
 
-## Tablas
+## Atajos en RMarkdown
 
-| Primer encabezado     | Segundo encabezado    |
-| --------------------- | --------------------- |
-| Contenido de la celda | Contenido de la celda |
-| Contenido de la celda | Contenido de la celda |
+| Task                       | Windows & Linux  | macOS               |
+| -------------------------- | ---------------- | ------------------- |
+| Insert R chunk             | Ctrl+Alt+I       | Command+Option+I    |
+| Preview HTML               | Ctrl+Shift+K     | Command+Shift+K     |
+| Knitr document (knitr)     | Ctrl+Shift+K     | Command+Shift+K     |
+| Compile Notebook           | Ctrl+Shift+K     | Command+Shift+K     |
+| Compile PDF                | Ctrl+Shift+K     | Command+Shift+K     |
+| Run all chunks above       | Ctrl+Alt+P       | Command+Option+P    |
+| Run current chunk          | Ctrl+Alt+C       | Command+Option+C    |
+| Run current chunk          | Ctrl+Shift+Enter | Command+Shift+Enter |
+| Run next chunk             | Ctrl+Alt+N       | Command+Option+N    |
+| Run all chunks             | Ctrl+Alt+R       | Command+Option+R    |
+| Go to next chunk/title     | Ctrl+PgDown      | Command+PgDown      |
+| Go to previous chunk/title | Ctrl+PgUp        | Command+PgUp        |
+| Show/hide document outline | Ctrl+Shift+O     | Command+Shift+O     |
+| Build book, website, .     | Ctrl+Shift+B     | Command+Shift+B     |
