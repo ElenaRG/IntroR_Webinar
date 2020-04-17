@@ -17,7 +17,7 @@ Recuerda que debes tener instalado en maquina __R-Cran__ y __RStudio__ ([Manual 
 	* [Presentación Sesión I](./Sesion_I/w_IntrodiccionR.pdf)
 	* [Practica 1 - Entorno de desarrollo integrado (RStudio)](./Sesion_I/wSesion1-Practica1.R)
 	* [Practica 2 - Importación y manipulación de Data Frames](./Sesion_I/wSesion1-Practica2.R)
-- __[Sesión II](hhttps://zoom.us/rec/share/6OdvD6HQ51FIU53k2GjZQYg7OKXYeaa80XcXqacOzEe7HjUNKUHrppzKmyx9-CtQ)__
+- __[Sesión II](https://zoom.us/rec/share/6OdvD6HQ51FIU53k2GjZQYg7OKXYeaa80XcXqacOzEe7HjUNKUHrppzKmyx9-CtQ)__
 	* [Practica 3 - Introducción a Tidyverse](./Sesion_II/wSesion2-Practica3.R)
 	* [Practica 4 - Visualización de datos con ggplot2](./Sesion_II/wSesion2-Practica4.R)
 - __[Sesión III](https://zoom.us/rec/share/5MYoMKnN-nNJBaPwr1HeVoU6T6HCX6a813QaqPEOzBrcBIsJeKMURVtj0HI0f98q)__
